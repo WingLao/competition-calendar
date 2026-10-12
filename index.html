@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex,nofollow,noarchive,nosnippet">
+<meta name="googlebot" content="noindex,nofollow,noarchive,nosnippet">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#3c536b">
+<title>比賽日曆</title>
+<style>
+:root{--page:#f4f6f8;--surface:#fff;--surface-2:#eef2f6;--ink:#1c2836;--muted:#5b6b7c;--accent:#1f5f7a;--gold:#8a6410;--gold-soft:#f6ecd2;--line:#d9e0e7;--warn:#9a3412;--warn-soft:#fdebe1;--radius:14px}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--page:#364c63;--surface:#1f2f43;--surface-2:#27394e;--ink:#f2f6fa;--muted:#c3cfdb;--accent:#afcdd4;--gold:#f0d59a;--gold-soft:#e6c57e26;--line:#ffffff24;--warn:#ffc9a8;--warn-soft:#ff8a4c26}}
+:root[data-theme="dark"]{--page:#364c63;--surface:#1f2f43;--surface-2:#27394e;--ink:#f2f6fa;--muted:#c3cfdb;--accent:#afcdd4;--gold:#f0d59a;--gold-soft:#e6c57e26;--line:#ffffff24;--warn:#ffc9a8;--warn-soft:#ff8a4c26}
+*{box-sizing:border-box}
+body{margin:0;background:var(--page);color:var(--ink);font:16px/1.6 -apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC","Microsoft JhengHei",sans-serif}
+.shell{max-width:920px;margin:0 auto;padding:20px 16px 60px}
+h1{font-size:1.6rem;margin:0 0 4px}
+h2{font-size:1.15rem;margin:28px 0 10px}
+p{margin:0 0 10px}
+a{color:var(--accent);overflow-wrap:anywhere}
+.lead{color:var(--muted);margin-bottom:6px}
+.meta{color:var(--muted);font-size:.88rem}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:14px 16px;margin-bottom:10px}
+.news li{margin-bottom:6px}
+.news ul,.links{margin:0;padding-left:1.1em}
+.timeline{list-style:none;margin:0;padding:0}
+.timeline li{display:grid;grid-template-columns:7.2em 1fr;gap:4px 12px;padding:9px 0;border-bottom:1px solid var(--line)}
+.timeline li:last-child{border-bottom:0}
+.timeline .when{font-variant-numeric:tabular-nums;font-weight:600}
+.timeline .when small{display:block;font-weight:400;color:var(--muted)}
+.timeline .soon .when{color:var(--warn)}
+.tag{display:inline-block;font-size:.76rem;border-radius:6px;padding:1px 7px;margin-left:6px;background:var(--surface-2);color:var(--muted);white-space:nowrap}
+.tag.gold{background:var(--gold-soft);color:var(--gold)}
+.tag.warn{background:var(--warn-soft);color:var(--warn)}
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 12px}
+.filters button{min-height:38px;padding:5px 14px;border:1px solid var(--line);border-radius:999px;background:var(--surface);color:inherit;font:inherit;cursor:pointer}
+.filters button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--page)}
+details.card{padding:0}
+details.card>summary{list-style:none;cursor:pointer;padding:13px 16px;display:flex;flex-wrap:wrap;align-items:center;gap:4px}
+details.card>summary::-webkit-details-marker{display:none}
+details.card>summary strong{flex:1 1 14em}
+details.card .body{padding:0 16px 14px;border-top:1px solid var(--line)}
+dl{margin:10px 0 0;display:grid;grid-template-columns:6.5em 1fr;gap:6px 12px}
+dt{color:var(--muted)}
+dd{margin:0}
+@media (max-width:560px){dl{grid-template-columns:1fr;gap:0}dd{margin-bottom:8px}.timeline li{grid-template-columns:1fr}}
+.empty{color:var(--muted)}
+footer{margin-top:28px;color:var(--muted);font-size:.86rem}
+</style>
+</head>
+<body>
+<div class="shell">
+<h1>比賽日曆</h1>
+<p class="lead">科技類學生比賽的日期、報名及官方網址；每天檢查一次官方消息。</p>
+<p class="meta" id="meta">正在讀取資料…</p>
+<div id="content"></div>
+<footer>
+<p>日期以主辦單位公布為準。標示「推算」的日期是按上一屆時間估計，不是官方公布。「升學作用」是按大學公開條文整理的建議，不是大學的說法；詳見 <a id="guide-link" href="https://winglao.github.io/admissions/">升學加分問答指南</a>。</p>
+</footer>
+</div>
+<script>
+const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const safe=u=>{try{const x=new URL(u);return ['https:','http:'].includes(x.protocol)?x.href:null;}catch{return null;}};
+const today=()=>new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Macau',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
+const days=(a,b)=>Math.round((Date.parse(b)-Date.parse(a))/864e5);
+const GROUPS=['全部','優先參加','值得參加','本校常規'];
+let data,group='全部';
+function timeline(){
+  const t=today(),rows=[];
+  for(const it of data.items)for(const e of it.events||[])if((e.end||e.date)>=t)rows.push({...e,item:it});
+  rows.sort((a,b)=>a.date.localeCompare(b.date));
+  if(!rows.length)return '<p class="empty">暫時沒有已公布的日期。</p>';
+  return '<ul class="timeline">'+rows.map(e=>{const d=days(t,e.date),left=d<0?'進行中':d===0?'今天':d+' 天後';
+    return `<li class="${d<=14?'soon':''}"><span class="when">${esc(e.date)}${e.end?' 至 '+esc(e.end.slice(5)):''}<small>${left}</small></span><span>${esc(e.label)}${e.estimated?'<span class="tag warn">推算</span>':''}<br><span class="meta">${esc(e.item.name)}</span></span></li>`;}).join('')+'</ul>';
+}
+function news(){
+  const t=today(),rows=(data.news||[]).filter(n=>days(n.date,t)<=30).sort((a,b)=>b.date.localeCompare(a.date));
+  if(!rows.length)return '<p class="empty">最近 30 天沒有新消息。</p>';
+  return '<ul>'+rows.map(n=>`<li><strong>${esc(n.date)}</strong>　${esc(n.text)}${safe(n.url)?` <a href="${esc(safe(n.url))}" target="_blank" rel="noopener">來源</a>`:''}</li>`).join('')+'</ul>';
+}
+function cards(){
+  const list=data.items.filter(it=>group==='全部'||it.group===group);
+  return list.map(it=>`<details class="card"><summary><strong>${esc(it.name)}</strong><span class="tag ${it.group==='優先參加'?'gold':''}">${esc(it.group)}</span>${it.school&&it.group!=='本校常規'?'<span class="tag">本校有參加</span>':''}<span class="tag">${esc(it.status)}</span></summary><div class="body"><dl>
+<dt>下一屆</dt><dd>${esc(it.next)}</dd>
+<dt>報名</dt><dd>${esc(it.register)}</dd>
+<dt>常規時間</dt><dd>${esc(it.usual)}</dd>
+<dt>升學作用</dt><dd>${esc(it.advice)}</dd>
+${it.note?`<dt>留意</dt><dd>${esc(it.note)}</dd>`:''}
+<dt>官方網址</dt><dd>${(it.links||[]).filter(l=>safe(l.url)).map(l=>`<a href="${esc(safe(l.url))}" target="_blank" rel="noopener">${esc(l.label)}</a>`).join('、')||'未查核'}</dd>
+</dl></div></details>`).join('')||'<p class="empty">沒有項目。</p>';
+}
+function render(){
+  document.getElementById('meta').textContent=`最後檢查：${data.checked}　資料最後變動：${data.updated}　共 ${data.items.length} 項`;
+  if(safe(data.guide))document.getElementById('guide-link').href=safe(data.guide);
+  document.getElementById('content').innerHTML=`<h2>最新消息</h2><div class="card news">${news()}</div>
+<h2>由今天起的日期</h2><div class="card">${timeline()}</div>
+<h2>所有跟進的比賽</h2><div class="filters" role="group" aria-label="篩選">${GROUPS.map(g=>`<button type="button" data-group="${g}" aria-pressed="${g===group}">${g}</button>`).join('')}</div>${cards()}`;
+}
+document.addEventListener('click',e=>{const b=e.target.closest('[data-group]');if(b){group=b.dataset.group;render();}});
+fetch('./data.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error();return r.json();}).then(d=>{data=d;render();}).catch(()=>{document.getElementById('meta').textContent='資料暫時無法讀取，請稍後重新整理。';});
+</script>
+</body>
+</html>
