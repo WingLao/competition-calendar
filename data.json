@@ -1,762 +1,795 @@
 {
- "title": "比賽日曆",
- "updated": "2026-10-14",
- "checked": "2026-10-14",
- "guide": "https://winglao.github.io/admissions/",
- "news": [
-  {
-   "date": "2026-10-14",
-   "id": "dsedj-it-innovation",
-   "text": "教青局章程頁已列出 2026/2027 學年「信息技術創新與實踐比賽」章程連結，但 PDF 暫時未能開啟，日期及報名期待確認",
-   "url": "https://portal.dsedj.gov.mo/webdsejspace/site/ce/index.jsp?con=regul"
-  },
-  {
-   "date": "2026-10-14",
-   "id": "dsedj-robot",
-   "text": "教青局章程頁已列出 2026/2027 學年「綜合機械人科普活動選拔大賽」章程連結，但 PDF 暫時未能開啟，日期及報名期待確認",
-   "url": "https://portal.dsedj.gov.mo/webdsejspace/site/ce/index.jsp?con=regul"
-  },
-  {
-   "date": "2026-10-14",
-   "id": "dsedj-innovation",
-   "text": "教青局章程頁已列出 2026/2027 學年「創新挑戰賽」章程連結，但 PDF 暫時未能開啟，日期及報名期待確認",
-   "url": "https://portal.dsedj.gov.mo/webdsejspace/site/ce/index.jsp?con=regul"
-  },
-  {
-   "date": "2026-10-12",
-   "id": "cmm-electronics",
-   "text": "比賽日曆建立。現正接受報名：通訊博物館電子裝置製作比賽（至 2026-11-30 22:00）、菜鳥黑客松學生組奪旗賽（至 2026-10-22）。",
-   "url": "https://www.cmm.gov.mo/chi/activities/2027/ecompetition/regulation.html"
-  }
- ],
- "items": [
-  {
-   "id": "cmm-electronics",
-   "name": "通訊博物館電子裝置製作比賽",
-   "group": "優先參加",
-   "school": false,
-   "advice": "澳大加分計劃 2.1(i) 點名：高中組獲獎，報考科目可加 20–50 分",
-   "next": "2027 年度（主題「貨真架實」）：初中組 2027-01-09、高中組 2027-01-16，通訊博物館",
-   "register": "澳門全日制中學生，個人或每隊最多 3 人；線上報名至 2026-11-30 22:00；查詢 2871 8063／2871 8570",
-   "usual": "9 月公布章程 → 11 月報名 → 翌年 1 月比賽",
-   "status": "現正接受報名",
-   "links": [
+  "title": "比賽日曆",
+  "updated": "2026-10-14",
+  "checked": "2026-10-14",
+  "guide": "https://winglao.github.io/admissions/",
+  "news": [
     {
-     "label": "2027 章程",
-     "url": "https://www.cmm.gov.mo/chi/activities/2027/ecompetition/regulation.html"
+      "date": "2026-10-14",
+      "id": "cpttm-mobile-web",
+      "text": "決賽得獎名單已公布；頒獎禮 2026-10-31 13:20–14:00 於澳門科學館會議廳舉行",
+      "url": "https://www.cpttm.org.mo/wp-content/uploads/2026/10/2026年全澳中學生手機網站技術技能比賽得獎名單.pdf"
     },
     {
-     "label": "通訊博物館",
-     "url": "https://www.cmm.gov.mo"
-    }
-   ],
-   "events": [
-    {
-     "date": "2026-11-14",
-     "label": "比賽說明會 15:00"
+      "date": "2026-10-14",
+      "id": "cpttm-quiz",
+      "text": "初中組及高中組初賽結果已公布（各 8 隊入圍）；決賽 2026-10-31（六），初中組 10:10、高中組 11:20 開始，澳門科學館會議廳",
+      "url": "https://www.cpttm.org.mo/wp-content/uploads/2026/10/2026年全澳中學生資訊科技知識問答比賽_高中組別初賽結果公告.pdf"
     },
     {
-     "date": "2026-11-30",
-     "label": "報名截止 22:00"
+      "date": "2026-10-14",
+      "id": "dsedj-it-innovation",
+      "text": "教青局章程頁已列出 2026/2027 學年「信息技術創新與實踐比賽」章程連結，但 PDF 暫時未能開啟，日期及報名期待確認",
+      "url": "https://portal.dsedj.gov.mo/webdsejspace/site/ce/index.jsp?con=regul"
     },
     {
-     "date": "2026-12-16",
-     "label": "公布抽籤結果"
+      "date": "2026-10-14",
+      "id": "dsedj-robot",
+      "text": "教青局章程頁已列出 2026/2027 學年「綜合機械人科普活動選拔大賽」章程連結，但 PDF 暫時未能開啟，日期及報名期待確認",
+      "url": "https://portal.dsedj.gov.mo/webdsejspace/site/ce/index.jsp?con=regul"
     },
     {
-     "date": "2027-01-09",
-     "label": "初中組比賽"
+      "date": "2026-10-14",
+      "id": "dsedj-innovation",
+      "text": "教青局章程頁已列出 2026/2027 學年「創新挑戰賽」章程連結，但 PDF 暫時未能開啟，日期及報名期待確認",
+      "url": "https://portal.dsedj.gov.mo/webdsejspace/site/ce/index.jsp?con=regul"
     },
     {
-     "date": "2027-01-16",
-     "label": "高中組比賽"
+      "date": "2026-10-12",
+      "id": "cmm-electronics",
+      "text": "比賽日曆建立。現正接受報名：通訊博物館電子裝置製作比賽（至 2026-11-30 22:00）、菜鳥黑客松學生組奪旗賽（至 2026-10-22）。",
+      "url": "https://www.cmm.gov.mo/chi/activities/2027/ecompetition/regulation.html"
     }
-   ],
-   "note": ""
-  },
-  {
-   "id": "dsedj-it-innovation",
-   "name": "澳門中小學信息技術創新與實踐比賽",
-   "group": "優先參加",
-   "school": true,
-   "advice": "澳大加分計劃 2.1(a) 點名：高中組冠、亞、季軍（獎狀名稱要與條文核對）",
-   "next": "2026/2027 學年章程已在教青局章程頁列出（PDF 暫時未能開啟，日期未確認）。上屆（2025/2026）：說明會 2026-05-13，決賽結果 7 月初公布",
-   "register": "只可由學校報名，經教青局「學界數學及科學比賽報名系統」；上屆截止 2026-05-20 17:00。賽項：C++、Python、圖形化編程、智能家居、智能對決",
-   "usual": "4 月底出章程 → 5 月報名 → 5 月底至 6 月比賽 → 7 月初公布",
-   "status": "章程已列出，內容待確認",
-   "links": [
+  ],
+  "items": [
     {
-     "label": "教青局章程頁",
-     "url": "https://portal.dsedj.gov.mo/webdsejspace/site/ce/index.jsp?con=regul"
+      "id": "cmm-electronics",
+      "name": "通訊博物館電子裝置製作比賽",
+      "group": "優先參加",
+      "school": false,
+      "advice": "澳大加分計劃 2.1(i) 點名：高中組獲獎，報考科目可加 20–50 分",
+      "next": "2027 年度（主題「貨真架實」）：初中組 2027-01-09、高中組 2027-01-16，通訊博物館",
+      "register": "澳門全日制中學生，個人或每隊最多 3 人；線上報名至 2026-11-30 22:00；查詢 2871 8063／2871 8570",
+      "usual": "9 月公布章程 → 11 月報名 → 翌年 1 月比賽",
+      "status": "現正接受報名",
+      "links": [
+        {
+          "label": "2027 章程",
+          "url": "https://www.cmm.gov.mo/chi/activities/2027/ecompetition/regulation.html"
+        },
+        {
+          "label": "通訊博物館",
+          "url": "https://www.cmm.gov.mo"
+        }
+      ],
+      "events": [
+        {
+          "date": "2026-11-14",
+          "label": "比賽說明會 15:00"
+        },
+        {
+          "date": "2026-11-30",
+          "label": "報名截止 22:00"
+        },
+        {
+          "date": "2026-12-16",
+          "label": "公布抽籤結果"
+        },
+        {
+          "date": "2027-01-09",
+          "label": "初中組比賽"
+        },
+        {
+          "date": "2027-01-16",
+          "label": "高中組比賽"
+        }
+      ],
+      "note": ""
     },
     {
-     "label": "上屆章程",
-     "url": "https://portal.dsedj.gov.mo/webdsejspace/site/ce/regul/2526/2526_Macau_IT_Innovation.pdf"
+      "id": "dsedj-it-innovation",
+      "name": "澳門中小學信息技術創新與實踐比賽",
+      "group": "優先參加",
+      "school": true,
+      "advice": "澳大加分計劃 2.1(a) 點名：高中組冠、亞、季軍（獎狀名稱要與條文核對）",
+      "next": "2026/2027 學年章程已在教青局章程頁列出（PDF 暫時未能開啟，日期未確認）。上屆（2025/2026）：說明會 2026-05-13，決賽結果 7 月初公布",
+      "register": "只可由學校報名，經教青局「學界數學及科學比賽報名系統」；上屆截止 2026-05-20 17:00。賽項：C++、Python、圖形化編程、智能家居、智能對決",
+      "usual": "4 月底出章程 → 5 月報名 → 5 月底至 6 月比賽 → 7 月初公布",
+      "status": "章程已列出，內容待確認",
+      "links": [
+        {
+          "label": "教青局章程頁",
+          "url": "https://portal.dsedj.gov.mo/webdsejspace/site/ce/index.jsp?con=regul"
+        },
+        {
+          "label": "上屆章程",
+          "url": "https://portal.dsedj.gov.mo/webdsejspace/site/ce/regul/2526/2526_Macau_IT_Innovation.pdf"
+        },
+        {
+          "label": "編程賽專頁",
+          "url": "https://www.macaucampus.com/competition"
+        },
+        {
+          "label": "智能家居及智能對決專頁",
+          "url": "https://noc-macau.info"
+        }
+      ],
+      "events": [
+        {
+          "date": "2027-05-20",
+          "label": "報名截止（按上屆推算）",
+          "estimated": true
+        }
+      ],
+      "note": ""
     },
     {
-     "label": "編程賽專頁",
-     "url": "https://www.macaucampus.com/competition"
+      "id": "dsedj-robot",
+      "name": "澳門青少年綜合機械人科普活動選拔大賽",
+      "group": "優先參加",
+      "school": false,
+      "advice": "澳大加分計劃 2.1(b) 點名：獲獎",
+      "next": "2026/2027 學年章程已在教青局章程頁列出（PDF 暫時未能開啟，日期未確認）。上屆：2026-05-16 至 17，石排灣公立學校",
+      "register": "只可由學校報名，同上報名系統；上屆截止 2026-04-23 17:00。六個項目：機械人創新挑戰、機械裝載、VEX IQ、WER、機器人工程設計、ENJOY AI；每隊 1 或 2 人",
+      "usual": "4 月報名 → 5 月中比賽",
+      "status": "章程已列出，內容待確認",
+      "links": [
+        {
+          "label": "教青局章程頁",
+          "url": "https://portal.dsedj.gov.mo/webdsejspace/site/ce/index.jsp?con=regul"
+        },
+        {
+          "label": "上屆章程",
+          "url": "https://portal.dsedj.gov.mo/webdsejspace/site/ce/regul/2526/macau_teen_robot_2526.pdf"
+        }
+      ],
+      "events": [
+        {
+          "date": "2027-04-23",
+          "label": "報名截止（按上屆推算）",
+          "estimated": true
+        },
+        {
+          "date": "2027-05-15",
+          "label": "比賽日（按上屆推算）",
+          "end": "2027-05-16",
+          "estimated": true
+        }
+      ],
+      "note": ""
     },
     {
-     "label": "智能家居及智能對決專頁",
-     "url": "https://noc-macau.info"
-    }
-   ],
-   "events": [
-    {
-     "date": "2027-05-20",
-     "label": "報名截止（按上屆推算）",
-     "estimated": true
-    }
-   ],
-   "note": ""
-  },
-  {
-   "id": "dsedj-robot",
-   "name": "澳門青少年綜合機械人科普活動選拔大賽",
-   "group": "優先參加",
-   "school": false,
-   "advice": "澳大加分計劃 2.1(b) 點名：獲獎",
-   "next": "2026/2027 學年章程已在教青局章程頁列出（PDF 暫時未能開啟，日期未確認）。上屆：2026-05-16 至 17，石排灣公立學校",
-   "register": "只可由學校報名，同上報名系統；上屆截止 2026-04-23 17:00。六個項目：機械人創新挑戰、機械裝載、VEX IQ、WER、機器人工程設計、ENJOY AI；每隊 1 或 2 人",
-   "usual": "4 月報名 → 5 月中比賽",
-   "status": "章程已列出，內容待確認",
-   "links": [
-    {
-     "label": "教青局章程頁",
-     "url": "https://portal.dsedj.gov.mo/webdsejspace/site/ce/index.jsp?con=regul"
+      "id": "dsedj-innovation",
+      "name": "全澳青少年（學界）創新挑戰賽",
+      "group": "優先參加",
+      "school": false,
+      "advice": "澳大加分計劃 2.1(c)「全澳青少年創新挑戰賽」（名稱多了「學界」二字，申請加分前要核對）",
+      "next": "2026/2027 學年章程已在教青局章程頁列出（PDF 暫時未能開啟，日期未確認）。上屆：說明會 2026-03-02；複賽答辯及展覽 2026-04-18 至 19，中葡職業技術學校",
+      "register": "只可由學校報名，同上報名系統；上屆截止 2026-03-16 17:00，網上交申報書、查新報告、誠信承諾書及作品簡介。個人或集體（最多 3 人）",
+      "usual": "3 月報名 → 4 月複賽 → 入選者申報全國青少年科技創新大賽",
+      "status": "章程已列出，內容待確認",
+      "links": [
+        {
+          "label": "教青局章程頁",
+          "url": "https://portal.dsedj.gov.mo/webdsejspace/site/ce/index.jsp?con=regul"
+        },
+        {
+          "label": "上屆章程",
+          "url": "https://portal.dsedj.gov.mo/webdsejspace/site/ce/regul/2526/macau_teen_create_2526.pdf"
+        }
+      ],
+      "events": [
+        {
+          "date": "2027-03-16",
+          "label": "報名截止（按上屆推算）",
+          "estimated": true
+        }
+      ],
+      "note": ""
     },
     {
-     "label": "上屆章程",
-     "url": "https://portal.dsedj.gov.mo/webdsejspace/site/ce/regul/2526/macau_teen_robot_2526.pdf"
-    }
-   ],
-   "events": [
-    {
-     "date": "2027-04-23",
-     "label": "報名截止（按上屆推算）",
-     "estimated": true
+      "id": "castic",
+      "name": "全國青少年科技創新大賽",
+      "group": "優先參加",
+      "school": false,
+      "advice": "澳大加分計劃 2.1(c) 點名：個人／集體項目獲獎",
+      "next": "第 41 屆（2027）未公布。第 40 屆：2026-07-25 至 29，陝西西安",
+      "register": "不能自行報名：經「創新挑戰賽」選拔，由教青局組成澳門學界代表隊",
+      "usual": "每年 7 月底",
+      "status": "未公布",
+      "links": [
+        {
+          "label": "大賽申報平台",
+          "url": "https://cyscc-kp.cast.org.cn/castic/#/home"
+        }
+      ],
+      "events": [],
+      "note": ""
     },
     {
-     "date": "2027-05-15",
-     "label": "比賽日（按上屆推算）",
-     "end": "2027-05-16",
-     "estimated": true
-    }
-   ],
-   "note": ""
-  },
-  {
-   "id": "dsedj-innovation",
-   "name": "全澳青少年（學界）創新挑戰賽",
-   "group": "優先參加",
-   "school": false,
-   "advice": "澳大加分計劃 2.1(c)「全澳青少年創新挑戰賽」（名稱多了「學界」二字，申請加分前要核對）",
-   "next": "2026/2027 學年章程已在教青局章程頁列出（PDF 暫時未能開啟，日期未確認）。上屆：說明會 2026-03-02；複賽答辯及展覽 2026-04-18 至 19，中葡職業技術學校",
-   "register": "只可由學校報名，同上報名系統；上屆截止 2026-03-16 17:00，網上交申報書、查新報告、誠信承諾書及作品簡介。個人或集體（最多 3 人）",
-   "usual": "3 月報名 → 4 月複賽 → 入選者申報全國青少年科技創新大賽",
-   "status": "章程已列出，內容待確認",
-   "links": [
-    {
-     "label": "教青局章程頁",
-     "url": "https://portal.dsedj.gov.mo/webdsejspace/site/ce/index.jsp?con=regul"
+      "id": "ioi-moi",
+      "name": "國際資訊學奧林匹克（IOI）及澳門選拔賽（MOI）",
+      "group": "優先參加",
+      "school": true,
+      "advice": "香港科大獎牌獎學金；清華、北大保送可放寬排名要求；要先通過澳門隊選拔",
+      "next": "IOI 2027：2027-09-12 至 19，德國波茨坦。MOI 2027 未公布（MOI 2026 在 2026 年 3 月）",
+      "register": "不能自行報名 IOI：每地 4 人，澳門隊由澳門電腦學會經 MOI 選出；MOI 報名經學會的活動報名系統",
+      "usual": "MOI：約 3 月；IOI：7 至 9 月",
+      "status": "MOI 2027 未公布",
+      "note": "澳門電腦學會網站阻擋自動讀取，MOI 的消息可能要人手查看。",
+      "links": [
+        {
+          "label": "IOI",
+          "url": "https://ioinformatics.org/"
+        },
+        {
+          "label": "澳門電腦學會",
+          "url": "https://www.mcs.mo/"
+        },
+        {
+          "label": "MOI 歷年統計",
+          "url": "https://moi-stats.mcs.mo/"
+        },
+        {
+          "label": "學會活動報名",
+          "url": "https://events.mcs.mo/"
+        }
+      ],
+      "events": [
+        {
+          "date": "2027-09-12",
+          "label": "IOI 2027（德國波茨坦）",
+          "end": "2027-09-19"
+        }
+      ]
     },
     {
-     "label": "上屆章程",
-     "url": "https://portal.dsedj.gov.mo/webdsejspace/site/ce/regul/2526/macau_teen_create_2526.pdf"
-    }
-   ],
-   "events": [
-    {
-     "date": "2027-03-16",
-     "label": "報名截止（按上屆推算）",
-     "estimated": true
-    }
-   ],
-   "note": ""
-  },
-  {
-   "id": "castic",
-   "name": "全國青少年科技創新大賽",
-   "group": "優先參加",
-   "school": false,
-   "advice": "澳大加分計劃 2.1(c) 點名：個人／集體項目獲獎",
-   "next": "第 41 屆（2027）未公布。第 40 屆：2026-07-25 至 29，陝西西安",
-   "register": "不能自行報名：經「創新挑戰賽」選拔，由教青局組成澳門學界代表隊",
-   "usual": "每年 7 月底",
-   "status": "未公布",
-   "links": [
-    {
-     "label": "大賽申報平台",
-     "url": "https://cyscc-kp.cast.org.cn/castic/#/home"
-    }
-   ],
-   "events": [],
-   "note": ""
-  },
-  {
-   "id": "ioi-moi",
-   "name": "國際資訊學奧林匹克（IOI）及澳門選拔賽（MOI）",
-   "group": "優先參加",
-   "school": true,
-   "advice": "香港科大獎牌獎學金；清華、北大保送可放寬排名要求；要先通過澳門隊選拔",
-   "next": "IOI 2027：2027-09-12 至 19，德國波茨坦。MOI 2027 未公布（MOI 2026 在 2026 年 3 月）",
-   "register": "不能自行報名 IOI：每地 4 人，澳門隊由澳門電腦學會經 MOI 選出；MOI 報名經學會的活動報名系統",
-   "usual": "MOI：約 3 月；IOI：7 至 9 月",
-   "status": "MOI 2027 未公布",
-   "note": "澳門電腦學會網站阻擋自動讀取，MOI 的消息可能要人手查看。",
-   "links": [
-    {
-     "label": "IOI",
-     "url": "https://ioinformatics.org/"
+      "id": "dsedj-potential",
+      "name": "潛能拓展創新菁英賽",
+      "group": "優先參加",
+      "school": false,
+      "advice": "澳大加分計劃 2.1(d) 點名",
+      "next": "2026/2027：報名已於 2026-10-08 截止；複賽 2026-11-07",
+      "register": "見教青局章程",
+      "usual": "10 月初報名截止 → 11 月複賽",
+      "status": "本屆報名已截止",
+      "links": [
+        {
+          "label": "教青局章程頁",
+          "url": "https://portal.dsedj.gov.mo/webdsejspace/site/ce/index.jsp?con=regul"
+        }
+      ],
+      "events": [
+        {
+          "date": "2026-11-07",
+          "label": "複賽"
+        }
+      ],
+      "note": ""
     },
     {
-     "label": "澳門電腦學會",
-     "url": "https://www.mcs.mo/"
+      "id": "vex",
+      "name": "VEX 機械人世錦賽及國際賽",
+      "group": "值得參加",
+      "school": false,
+      "advice": "沒有固定加分；國際賽，香港理大 STARS 按規模及重要性評核",
+      "next": "2027 世錦賽：4 月，美國聖路易斯，確實日期未公布",
+      "register": "在官方賽事平台登記隊伍 → 澳門或區域錦標賽取得世錦賽名額",
+      "usual": "區域賽 11 月至翌年 3 月；世錦賽 4 月下旬",
+      "status": "日期未公布",
+      "links": [
+        {
+          "label": "賽事平台",
+          "url": "https://events.vex.com"
+        },
+        {
+          "label": "晉級途徑",
+          "url": "https://www.vexrobotics.com/official-path"
+        },
+        {
+          "label": "REC 基金會",
+          "url": "https://recf.org"
+        }
+      ],
+      "events": [],
+      "note": ""
     },
     {
-     "label": "MOI 歷年統計",
-     "url": "https://moi-stats.mcs.mo/"
+      "id": "robocup",
+      "name": "RoboCup／RoboCupJunior",
+      "group": "值得參加",
+      "school": false,
+      "advice": "沒有固定加分；香港理大 STARS 舉例提到 RoboCup，地區賽由大學評核",
+      "next": "RoboCup 2027：2027-06-15 至 21，德國紐倫堡",
+      "register": "區域賽晉級：RCJ 香港賽（上屆 2026-04-25）→ 中國賽（5 月初）→ 世界賽",
+      "usual": "4 月香港賽 → 5 月中國賽 → 6 至 7 月世界賽",
+      "status": "世界賽日期已公布",
+      "links": [
+        {
+          "label": "RoboCup",
+          "url": "https://robocup.org"
+        },
+        {
+          "label": "Junior 論壇",
+          "url": "https://junior.forum.robocup.org"
+        }
+      ],
+      "events": [
+        {
+          "date": "2027-06-15",
+          "label": "RoboCup 2027（德國紐倫堡）",
+          "end": "2027-06-21"
+        }
+      ],
+      "note": ""
     },
     {
-     "label": "學會活動報名",
-     "url": "https://events.mcs.mo/"
-    }
-   ],
-   "events": [
-    {
-     "date": "2027-09-12",
-     "label": "IOI 2027（德國波茨坦）",
-     "end": "2027-09-19"
-    }
-   ]
-  },
-  {
-   "id": "dsedj-potential",
-   "name": "潛能拓展創新菁英賽",
-   "group": "優先參加",
-   "school": false,
-   "advice": "澳大加分計劃 2.1(d) 點名",
-   "next": "2026/2027：報名已於 2026-10-08 截止；複賽 2026-11-07",
-   "register": "見教青局章程",
-   "usual": "10 月初報名截止 → 11 月複賽",
-   "status": "本屆報名已截止",
-   "links": [
-    {
-     "label": "教青局章程頁",
-     "url": "https://portal.dsedj.gov.mo/webdsejspace/site/ce/index.jsp?con=regul"
-    }
-   ],
-   "events": [
-    {
-     "date": "2026-11-07",
-     "label": "複賽"
-    }
-   ],
-   "note": ""
-  },
-  {
-   "id": "vex",
-   "name": "VEX 機械人世錦賽及國際賽",
-   "group": "值得參加",
-   "school": false,
-   "advice": "沒有固定加分；國際賽，香港理大 STARS 按規模及重要性評核",
-   "next": "2027 世錦賽：4 月，美國聖路易斯，確實日期未公布",
-   "register": "在官方賽事平台登記隊伍 → 澳門或區域錦標賽取得世錦賽名額",
-   "usual": "區域賽 11 月至翌年 3 月；世錦賽 4 月下旬",
-   "status": "日期未公布",
-   "links": [
-    {
-     "label": "賽事平台",
-     "url": "https://events.vex.com"
+      "id": "underwater",
+      "name": "水底機械人：MATE ROV 世界賽、International SeaPerch",
+      "group": "值得參加",
+      "school": false,
+      "advice": "沒有固定加分；國際賽，香港理大 STARS 按規模及重要性評核",
+      "next": "MATE 2027 世界賽未公布（2026：06-25 至 27，加拿大）。SeaPerch 2027 未經官方確認",
+      "register": "MATE：香港地區賽取得世界賽資格。SeaPerch：區域賽晉級或申請外卡",
+      "usual": "MATE：4 月地區賽、6 月世界賽。SeaPerch：5 月底至 6 月初",
+      "status": "日期未公布",
+      "links": [
+        {
+          "label": "MATE ROV",
+          "url": "https://materovcompetition.org"
+        },
+        {
+          "label": "香港地區賽",
+          "url": "https://materovcompetition.org/register-regionals/hongkong-regional"
+        },
+        {
+          "label": "SeaPerch",
+          "url": "https://seaperch.org"
+        }
+      ],
+      "events": [],
+      "note": ""
     },
     {
-     "label": "晉級途徑",
-     "url": "https://www.vexrobotics.com/official-path"
+      "id": "ai-olympiad",
+      "name": "人工智能奧林匹克：IOAI、IAIO",
+      "group": "值得參加",
+      "school": false,
+      "advice": "沒有固定加分；國際賽，香港理大 STARS 按規模及重要性評核",
+      "next": "IAIO 2027：2027-02-25 至 03-02，越南峴港。IOAI 2027：2027-07-04 至 10，新加坡",
+      "register": "以國家或地區隊參加，不能自行報名。IOAI 澳門隊經澳門電腦學會的 MOAI 選拔",
+      "usual": "IAIO：2 月底至 3 月初；IOAI：7 至 8 月",
+      "status": "日期已公布；澳門選拔未公布",
+      "links": [
+        {
+          "label": "IOAI",
+          "url": "https://ioai-official.org"
+        },
+        {
+          "label": "MOAI",
+          "url": "https://moai.mcs.mo/"
+        },
+        {
+          "label": "學會活動報名",
+          "url": "https://events.mcs.mo/"
+        }
+      ],
+      "events": [
+        {
+          "date": "2027-02-25",
+          "label": "IAIO 2027（越南峴港）",
+          "end": "2027-03-02"
+        },
+        {
+          "date": "2027-07-04",
+          "label": "IOAI 2027（新加坡）",
+          "end": "2027-07-10"
+        }
+      ],
+      "note": ""
     },
     {
-     "label": "REC 基金會",
-     "url": "https://recf.org"
-    }
-   ],
-   "events": [],
-   "note": ""
-  },
-  {
-   "id": "robocup",
-   "name": "RoboCup／RoboCupJunior",
-   "group": "值得參加",
-   "school": false,
-   "advice": "沒有固定加分；香港理大 STARS 舉例提到 RoboCup，地區賽由大學評核",
-   "next": "RoboCup 2027：2027-06-15 至 21，德國紐倫堡",
-   "register": "區域賽晉級：RCJ 香港賽（上屆 2026-04-25）→ 中國賽（5 月初）→ 世界賽",
-   "usual": "4 月香港賽 → 5 月中國賽 → 6 至 7 月世界賽",
-   "status": "世界賽日期已公布",
-   "links": [
-    {
-     "label": "RoboCup",
-     "url": "https://robocup.org"
+      "id": "science-fairs",
+      "name": "科創專題：臺灣國際科展、明日科技之星、日本國際科學工程論壇、BIEA",
+      "group": "值得參加",
+      "school": false,
+      "advice": "沒有固定加分；國際賽，香港理大 STARS 按規模及重要性評核",
+      "next": "臺灣國際科展 2027 未公布；其餘三項未查",
+      "register": "臺灣國際科展的境外作品是邀請制，不設自由報名",
+      "usual": "臺灣國際科展：1 月底至 2 月初；明日科技之星及 BIEA 總決賽 7 月；日本論壇 9 月",
+      "status": "未公布",
+      "links": [
+        {
+          "label": "國立臺灣科學教育館",
+          "url": "https://www.ntsec.gov.tw"
+        }
+      ],
+      "events": [],
+      "note": ""
     },
     {
-     "label": "Junior 論壇",
-     "url": "https://junior.forum.robocup.org"
-    }
-   ],
-   "events": [
-    {
-     "date": "2027-06-15",
-     "label": "RoboCup 2027（德國紐倫堡）",
-     "end": "2027-06-21"
-    }
-   ],
-   "note": ""
-  },
-  {
-   "id": "underwater",
-   "name": "水底機械人：MATE ROV 世界賽、International SeaPerch",
-   "group": "值得參加",
-   "school": false,
-   "advice": "沒有固定加分；國際賽，香港理大 STARS 按規模及重要性評核",
-   "next": "MATE 2027 世界賽未公布（2026：06-25 至 27，加拿大）。SeaPerch 2027 未經官方確認",
-   "register": "MATE：香港地區賽取得世界賽資格。SeaPerch：區域賽晉級或申請外卡",
-   "usual": "MATE：4 月地區賽、6 月世界賽。SeaPerch：5 月底至 6 月初",
-   "status": "日期未公布",
-   "links": [
-    {
-     "label": "MATE ROV",
-     "url": "https://materovcompetition.org"
+      "id": "invention",
+      "name": "國際發明展：日內瓦、馬來西亞 ITEX、高雄 KIDE",
+      "group": "值得參加",
+      "school": false,
+      "advice": "沒有固定加分；國際賽，香港理大 STARS 按規模及重要性評核",
+      "next": "日內瓦 2027-04-28 至 05-02（未見主辦方確認）；ITEX 2027-05-27 至 29，吉隆坡；KIDE 2026 未查到",
+      "register": "向主辦或地區代理報名參展，收取展位費",
+      "usual": "日內瓦 3 至 4 月；ITEX 5 月；KIDE 12 月",
+      "status": "部分日期未經主辦方確認",
+      "links": [],
+      "events": [
+        {
+          "date": "2027-04-28",
+          "label": "日內瓦國際發明展（未經主辦方確認）",
+          "end": "2027-05-02",
+          "estimated": true
+        },
+        {
+          "date": "2027-05-27",
+          "label": "ITEX 2027（吉隆坡）",
+          "end": "2027-05-29"
+        }
+      ],
+      "note": ""
     },
     {
-     "label": "香港地區賽",
-     "url": "https://materovcompetition.org/register-regionals/hongkong-regional"
+      "id": "drone-soccer",
+      "name": "無人機足球世界賽",
+      "group": "值得參加",
+      "school": false,
+      "advice": "沒有固定加分；國際賽，香港理大 STARS 按規模及重要性評核",
+      "next": "2027 世界錦標賽未公布（首屆 2025-11-15 至 18，上海）",
+      "register": "以澳門隊名義參加國際航空聯盟（FAI）賽事",
+      "usual": "世界賽 11 月；系列賽全年",
+      "status": "未公布",
+      "links": [
+        {
+          "label": "FAI 無人機運動",
+          "url": "https://www.fai.org/drone-sports"
+        }
+      ],
+      "events": [],
+      "note": ""
     },
     {
-     "label": "SeaPerch",
-     "url": "https://seaperch.org"
-    }
-   ],
-   "events": [],
-   "note": ""
-  },
-  {
-   "id": "ai-olympiad",
-   "name": "人工智能奧林匹克：IOAI、IAIO",
-   "group": "值得參加",
-   "school": false,
-   "advice": "沒有固定加分；國際賽，香港理大 STARS 按規模及重要性評核",
-   "next": "IAIO 2027：2027-02-25 至 03-02，越南峴港。IOAI 2027：2027-07-04 至 10，新加坡",
-   "register": "以國家或地區隊參加，不能自行報名。IOAI 澳門隊經澳門電腦學會的 MOAI 選拔",
-   "usual": "IAIO：2 月底至 3 月初；IOAI：7 至 8 月",
-   "status": "日期已公布；澳門選拔未公布",
-   "links": [
-    {
-     "label": "IOAI",
-     "url": "https://ioai-official.org"
+      "id": "wro",
+      "name": "WRO 世界機械人奧林匹克",
+      "group": "值得參加",
+      "school": false,
+      "advice": "沒有固定加分；國際總決賽屬國際賽，澳門選拔賽只作佐證",
+      "next": "國際總決賽：2026-12-08 至 10，波多黎各聖胡安",
+      "register": "先贏澳門區選拔賽（上屆約 6 月底）",
+      "usual": "6 月底澳門選拔 → 12 月國際總決賽",
+      "status": "國際總決賽日期已公布",
+      "links": [
+        {
+          "label": "WRO",
+          "url": "https://wro-association.org/competition/international-final/"
+        }
+      ],
+      "events": [
+        {
+          "date": "2026-12-08",
+          "label": "WRO 國際總決賽（波多黎各）",
+          "end": "2026-12-10"
+        }
+      ],
+      "note": ""
     },
     {
-     "label": "MOAI",
-     "url": "https://moai.mcs.mo/"
+      "id": "wer-enjoyai",
+      "name": "WER 世錦賽、ENJOY AI 全球總決賽",
+      "group": "值得參加",
+      "school": false,
+      "advice": "沒有固定加分；國際賽，香港理大 STARS 按規模及重要性評核",
+      "next": "WER 2026：12 月，上海，日期未公布。ENJOY AI 2026 全球總決賽未查到",
+      "register": "兩項都是教青局機械人選拔大賽的賽項，冠軍隊代表澳門學界出外比賽；ENJOY AI 另有澳門賽區",
+      "usual": "5 月澳門選拔 → 12 月世界賽",
+      "status": "日期未公布",
+      "links": [],
+      "events": [],
+      "note": ""
     },
     {
-     "label": "學會活動報名",
-     "url": "https://events.mcs.mo/"
-    }
-   ],
-   "events": [
-    {
-     "date": "2027-02-25",
-     "label": "IAIO 2027（越南峴港）",
-     "end": "2027-03-02"
+      "id": "wrc",
+      "name": "世界機器人大賽（WRC）",
+      "group": "值得參加",
+      "school": false,
+      "advice": "沒有固定加分；國際賽，香港理大 STARS 按規模及重要性評核",
+      "next": "2026 總決賽已於 2026-08-19 至 23 在北京舉行；下一屆未公布",
+      "register": "先參加澳門選拔賽（上屆約 11 月底）",
+      "usual": "11 月澳門選拔 → 翌年 8 月北京總決賽",
+      "status": "未公布",
+      "links": [],
+      "events": [],
+      "note": ""
     },
     {
-     "date": "2027-07-04",
-     "label": "IOAI 2027（新加坡）",
-     "end": "2027-07-10"
-    }
-   ],
-   "note": ""
-  },
-  {
-   "id": "science-fairs",
-   "name": "科創專題：臺灣國際科展、明日科技之星、日本國際科學工程論壇、BIEA",
-   "group": "值得參加",
-   "school": false,
-   "advice": "沒有固定加分；國際賽，香港理大 STARS 按規模及重要性評核",
-   "next": "臺灣國際科展 2027 未公布；其餘三項未查",
-   "register": "臺灣國際科展的境外作品是邀請制，不設自由報名",
-   "usual": "臺灣國際科展：1 月底至 2 月初；明日科技之星及 BIEA 總決賽 7 月；日本論壇 9 月",
-   "status": "未公布",
-   "links": [
-    {
-     "label": "國立臺灣科學教育館",
-     "url": "https://www.ntsec.gov.tw"
-    }
-   ],
-   "events": [],
-   "note": ""
-  },
-  {
-   "id": "invention",
-   "name": "國際發明展：日內瓦、馬來西亞 ITEX、高雄 KIDE",
-   "group": "值得參加",
-   "school": false,
-   "advice": "沒有固定加分；國際賽，香港理大 STARS 按規模及重要性評核",
-   "next": "日內瓦 2027-04-28 至 05-02（未見主辦方確認）；ITEX 2027-05-27 至 29，吉隆坡；KIDE 2026 未查到",
-   "register": "向主辦或地區代理報名參展，收取展位費",
-   "usual": "日內瓦 3 至 4 月；ITEX 5 月；KIDE 12 月",
-   "status": "部分日期未經主辦方確認",
-   "links": [],
-   "events": [
-    {
-     "date": "2027-04-28",
-     "label": "日內瓦國際發明展（未經主辦方確認）",
-     "end": "2027-05-02",
-     "estimated": true
+      "id": "worldskills",
+      "name": "世界技能大賽（WorldSkills）",
+      "group": "值得參加",
+      "school": false,
+      "advice": "沒有固定加分；國際賽，香港理大 STARS 按規模及重要性評核",
+      "next": "第 49 屆：2028-11-15 至 20，日本愛知",
+      "register": "兩年一屆；澳門選手經澳門區選拔賽產生，以往由勞工事務局組織",
+      "usual": "逢雙數年 9 至 11 月",
+      "status": "日期已公布",
+      "links": [
+        {
+          "label": "WorldSkills",
+          "url": "https://worldskills.org"
+        }
+      ],
+      "events": [
+        {
+          "date": "2028-11-15",
+          "label": "第 49 屆世界技能大賽（日本愛知）",
+          "end": "2028-11-20"
+        }
+      ],
+      "note": ""
     },
     {
-     "date": "2027-05-27",
-     "label": "ITEX 2027（吉隆坡）",
-     "end": "2027-05-29"
-    }
-   ],
-   "note": ""
-  },
-  {
-   "id": "drone-soccer",
-   "name": "無人機足球世界賽",
-   "group": "值得參加",
-   "school": false,
-   "advice": "沒有固定加分；國際賽，香港理大 STARS 按規模及重要性評核",
-   "next": "2027 世界錦標賽未公布（首屆 2025-11-15 至 18，上海）",
-   "register": "以澳門隊名義參加國際航空聯盟（FAI）賽事",
-   "usual": "世界賽 11 月；系列賽全年",
-   "status": "未公布",
-   "links": [
-    {
-     "label": "FAI 無人機運動",
-     "url": "https://www.fai.org/drone-sports"
-    }
-   ],
-   "events": [],
-   "note": ""
-  },
-  {
-   "id": "wro",
-   "name": "WRO 世界機械人奧林匹克",
-   "group": "值得參加",
-   "school": false,
-   "advice": "沒有固定加分；國際總決賽屬國際賽，澳門選拔賽只作佐證",
-   "next": "國際總決賽：2026-12-08 至 10，波多黎各聖胡安",
-   "register": "先贏澳門區選拔賽（上屆約 6 月底）",
-   "usual": "6 月底澳門選拔 → 12 月國際總決賽",
-   "status": "國際總決賽日期已公布",
-   "links": [
-    {
-     "label": "WRO",
-     "url": "https://wro-association.org/competition/international-final/"
-    }
-   ],
-   "events": [
-    {
-     "date": "2026-12-08",
-     "label": "WRO 國際總決賽（波多黎各）",
-     "end": "2026-12-10"
-    }
-   ],
-   "note": ""
-  },
-  {
-   "id": "wer-enjoyai",
-   "name": "WER 世錦賽、ENJOY AI 全球總決賽",
-   "group": "值得參加",
-   "school": false,
-   "advice": "沒有固定加分；國際賽，香港理大 STARS 按規模及重要性評核",
-   "next": "WER 2026：12 月，上海，日期未公布。ENJOY AI 2026 全球總決賽未查到",
-   "register": "兩項都是教青局機械人選拔大賽的賽項，冠軍隊代表澳門學界出外比賽；ENJOY AI 另有澳門賽區",
-   "usual": "5 月澳門選拔 → 12 月世界賽",
-   "status": "日期未公布",
-   "links": [],
-   "events": [],
-   "note": ""
-  },
-  {
-   "id": "wrc",
-   "name": "世界機器人大賽（WRC）",
-   "group": "值得參加",
-   "school": false,
-   "advice": "沒有固定加分；國際賽，香港理大 STARS 按規模及重要性評核",
-   "next": "2026 總決賽已於 2026-08-19 至 23 在北京舉行；下一屆未公布",
-   "register": "先參加澳門選拔賽（上屆約 11 月底）",
-   "usual": "11 月澳門選拔 → 翌年 8 月北京總決賽",
-   "status": "未公布",
-   "links": [],
-   "events": [],
-   "note": ""
-  },
-  {
-   "id": "worldskills",
-   "name": "世界技能大賽（WorldSkills）",
-   "group": "值得參加",
-   "school": false,
-   "advice": "沒有固定加分；國際賽，香港理大 STARS 按規模及重要性評核",
-   "next": "第 49 屆：2028-11-15 至 20，日本愛知",
-   "register": "兩年一屆；澳門選手經澳門區選拔賽產生，以往由勞工事務局組織",
-   "usual": "逢雙數年 9 至 11 月",
-   "status": "日期已公布",
-   "links": [
-    {
-     "label": "WorldSkills",
-     "url": "https://worldskills.org"
-    }
-   ],
-   "events": [
-    {
-     "date": "2028-11-15",
-     "label": "第 49 屆世界技能大賽（日本愛知）",
-     "end": "2028-11-20"
-    }
-   ],
-   "note": ""
-  },
-  {
-   "id": "idsol-codecombat",
-   "name": "IDSOL 數據科學奧林匹克、CodeCombat AI 全球賽",
-   "group": "值得參加",
-   "school": false,
-   "advice": "沒有固定加分；國際賽，香港理大 STARS 按規模及重要性評核",
-   "next": "2026 屆日期未查到。IDSOL 上屆 2025-10-30 在香港科大",
-   "register": "IDSOL 香港區曾在 8 月接受提名",
-   "usual": "IDSOL：8 至 9 月報名、10 至 11 月比賽",
-   "status": "未查到",
-   "links": [],
-   "events": [],
-   "note": ""
-  },
-  {
-   "id": "cpttm-quiz",
-   "name": "全澳中學生資訊科技知識問答比賽",
-   "group": "本校常規",
-   "school": true,
-   "advice": "見升學加分指南「本校過去的比賽」",
-   "next": "2026 年：初賽 2026-10-11（已舉行）；決賽 2026-10-31，澳門科學館",
-   "register": "每隊 2 人，初中組／高中組；本屆報名已於 2026-09-08 截止",
-   "usual": "9 月初報名 → 10 月初賽及決賽",
-   "status": "本屆進行中",
-   "links": [
-    {
-     "label": "官方比賽網頁",
-     "url": "https://www.cpttm.org.mo/ist/it-competitions/students-information-technology-knowledge-quiz-competition/2025年全澳中學生資訊科技知識問答比賽-2/"
-    }
-   ],
-   "events": [
-    {
-     "date": "2026-10-31",
-     "label": "決賽 10:00–14:00（澳門科學館）"
-    }
-   ],
-   "note": ""
-  },
-  {
-   "id": "cpttm-mobile-web",
-   "name": "全澳中學生手機網站技術技能比賽",
-   "group": "本校常規",
-   "school": true,
-   "advice": "見升學加分指南「本校過去的比賽」",
-   "next": "2026 年：決賽已於 2026-10-10 舉行；下一屆未公布",
-   "register": "每隊 2 人；本屆報名於 2026-09-08 截止",
-   "usual": "9 月初報名 → 9 月中初賽 → 10 月決賽",
-   "status": "本屆已完成",
-   "links": [
-    {
-     "label": "官方比賽網頁",
-     "url": "https://events.cpttm.org.mo/competition/264?l=c"
-    }
-   ],
-   "events": [],
-   "note": ""
-  },
-  {
-   "id": "csp",
-   "name": "CSP-J/S（非專業級軟件能力認證）",
-   "group": "本校常規",
-   "school": true,
-   "advice": "見升學加分指南「本校過去的比賽」",
-   "next": "CSP-J/S 2026 第二輪：2026-10-31，入門組 08:30–12:00、提高組 14:30–18:30",
-   "register": "CSP 系統線上報名（老師須先註冊）；第二輪全國系統繳費 2026-10-12 至 10-19 15:00，澳門安排以來函為準",
-   "usual": "9 月初第一輪報名 → 9 月中第一輪 → 10 月底第二輪",
-   "status": "第二輪待舉行",
-   "links": [
-    {
-     "label": "CSP 報名系統",
-     "url": "https://cspsjtest.noi.cn/"
+      "id": "idsol-codecombat",
+      "name": "IDSOL 數據科學奧林匹克、CodeCombat AI 全球賽",
+      "group": "值得參加",
+      "school": false,
+      "advice": "沒有固定加分；國際賽，香港理大 STARS 按規模及重要性評核",
+      "next": "2026 屆日期未查到。IDSOL 上屆 2025-10-30 在香港科大",
+      "register": "IDSOL 香港區曾在 8 月接受提名",
+      "usual": "IDSOL：8 至 9 月報名、10 至 11 月比賽",
+      "status": "未查到",
+      "links": [],
+      "events": [],
+      "note": ""
     },
     {
-     "label": "CCF 舉辦通知",
-     "url": "https://www.noi.cn/xw/2026-07-06/908155.shtml"
-    }
-   ],
-   "events": [
-    {
-     "date": "2026-10-19",
-     "label": "第二輪繳費截止 15:00（全國系統）"
+      "id": "cpttm-quiz",
+      "name": "全澳中學生資訊科技知識問答比賽",
+      "group": "本校常規",
+      "school": true,
+      "advice": "見升學加分指南「本校過去的比賽」",
+      "next": "2026 年：初賽 2026-10-11（已舉行，結果 2026-10-14 公布）；決賽 2026-10-31（六）10:00–14:00，澳門科學館會議廳",
+      "register": "每隊 2 人，初中組／高中組；本屆報名已於 2026-09-08 截止",
+      "usual": "9 月初報名 → 10 月初賽及決賽",
+      "status": "初賽結果已公布；決賽 2026-10-31",
+      "links": [
+        {
+          "label": "官方比賽網頁",
+          "url": "https://www.cpttm.org.mo/ist/it-competitions/students-information-technology-knowledge-quiz-competition/2025年全澳中學生資訊科技知識問答比賽-2/"
+        },
+        {
+          "label": "高中組初賽結果公告",
+          "url": "https://www.cpttm.org.mo/wp-content/uploads/2026/10/2026年全澳中學生資訊科技知識問答比賽_高中組別初賽結果公告.pdf"
+        },
+        {
+          "label": "初中組初賽結果公告",
+          "url": "https://www.cpttm.org.mo/wp-content/uploads/2026/10/2026年全澳中學生資訊科技知識問答比賽_初中組別初賽結果公告.pdf"
+        },
+        {
+          "label": "決賽程序表",
+          "url": "https://www.cpttm.org.mo/wp-content/uploads/2026/10/2026年全澳中學生資訊科技知識問答比賽_決賽程序表.pdf"
+        }
+      ],
+      "events": [
+        {
+          "date": "2026-10-31",
+          "label": "決賽：初中組 10:10–10:50、高中組 11:20–12:00；頒獎禮 13:20–14:00（澳門科學館會議廳）"
+        }
+      ],
+      "note": ""
     },
     {
-     "date": "2026-10-23",
-     "label": "開始下載准考證",
-     "end": "2026-10-31"
+      "id": "cpttm-mobile-web",
+      "name": "全澳中學生手機網站技術技能比賽",
+      "group": "本校常規",
+      "school": true,
+      "advice": "見升學加分指南「本校過去的比賽」",
+      "next": "2026 年：決賽 2026-10-10 已舉行，得獎名單 2026-10-14 公布；頒獎禮 2026-10-31；下一屆未公布",
+      "register": "每隊 2 人；本屆報名於 2026-09-08 截止",
+      "usual": "9 月初報名 → 9 月中初賽 → 10 月決賽",
+      "status": "得獎名單已公布；頒獎禮 2026-10-31",
+      "links": [
+        {
+          "label": "官方比賽網頁",
+          "url": "https://events.cpttm.org.mo/competition/264?l=c"
+        },
+        {
+          "label": "得獎名單",
+          "url": "https://www.cpttm.org.mo/wp-content/uploads/2026/10/2026年全澳中學生手機網站技術技能比賽得獎名單.pdf"
+        }
+      ],
+      "events": [
+        {
+          "date": "2026-10-31",
+          "label": "頒獎禮 13:20–14:00（澳門科學館會議廳，與知識問答決賽同場）"
+        }
+      ],
+      "note": ""
     },
     {
-     "date": "2026-10-31",
-     "label": "第二輪認證"
-    }
-   ],
-   "note": ""
-  },
-  {
-   "id": "gyai",
-   "name": "全球青少年人工智能未來創新競賽（澳門中學生賽區）",
-   "group": "本校常規",
-   "school": true,
-   "advice": "見升學加分指南「本校過去的比賽」",
-   "next": "2026 年：初步評審 2026-10-10 至 30；複評 2026-11-01 至 15；全球決賽 2026-11-26，澳門",
-   "register": "本澳中學生，每校最多 5 隊，每隊最多 3 人；本屆報名及交件已於 2026-10-09 截止",
-   "usual": "10 月初報名及交件 → 11 月決賽",
-   "status": "本屆評審中",
-   "links": [
-    {
-     "label": "報名連結",
-     "url": "https://form.mcs.mo/forms/global-youth-ai-competition-pqnoz0"
-    }
-   ],
-   "events": [
-    {
-     "date": "2026-11-01",
-     "label": "複評／準決賽（網上）",
-     "end": "2026-11-15"
+      "id": "csp",
+      "name": "CSP-J/S（非專業級軟件能力認證）",
+      "group": "本校常規",
+      "school": true,
+      "advice": "見升學加分指南「本校過去的比賽」",
+      "next": "CSP-J/S 2026 第二輪：2026-10-31，入門組 08:30–12:00、提高組 14:30–18:30",
+      "register": "CSP 系統線上報名（老師須先註冊）；第二輪全國系統繳費 2026-10-12 至 10-19 15:00，澳門安排以來函為準",
+      "usual": "9 月初第一輪報名 → 9 月中第一輪 → 10 月底第二輪",
+      "status": "第二輪待舉行",
+      "links": [
+        {
+          "label": "CSP 報名系統",
+          "url": "https://cspsjtest.noi.cn/"
+        },
+        {
+          "label": "CCF 舉辦通知",
+          "url": "https://www.noi.cn/xw/2026-07-06/908155.shtml"
+        }
+      ],
+      "events": [
+        {
+          "date": "2026-10-19",
+          "label": "第二輪繳費截止 15:00（全國系統）"
+        },
+        {
+          "date": "2026-10-23",
+          "label": "開始下載准考證",
+          "end": "2026-10-31"
+        },
+        {
+          "date": "2026-10-31",
+          "label": "第二輪認證"
+        }
+      ],
+      "note": ""
     },
     {
-     "date": "2026-11-26",
-     "label": "全球決賽及頒獎（澳門）"
-    }
-   ],
-   "note": ""
-  },
-  {
-   "id": "rookie-hackathon",
-   "name": "「菜鳥黑客松」學生組奪旗賽（AWDP 攻防賽）",
-   "group": "本校常規",
-   "school": true,
-   "advice": "見升學加分指南「本校過去的比賽」",
-   "next": "2026 年：賽前培訓 2026-10-30 至 11-01；比賽及頒獎 2026-11-08，業餘進修中心",
-   "register": "全澳中學生，每隊 2 至 4 人，每校最多 2 隊；報名至 2026-10-22",
-   "usual": "10 月報名 → 11 月初比賽",
-   "status": "現正接受報名",
-   "links": [
-    {
-     "label": "官方公告",
-     "url": "https://www.caep.edu.mo/latestNoticeDetail/129"
-    }
-   ],
-   "events": [
-    {
-     "date": "2026-10-22",
-     "label": "報名截止"
+      "id": "gyai",
+      "name": "全球青少年人工智能未來創新競賽（澳門中學生賽區）",
+      "group": "本校常規",
+      "school": true,
+      "advice": "見升學加分指南「本校過去的比賽」",
+      "next": "2026 年：初步評審 2026-10-10 至 30；複評 2026-11-01 至 15；全球決賽 2026-11-26，澳門",
+      "register": "本澳中學生，每校最多 5 隊，每隊最多 3 人；本屆報名及交件已於 2026-10-09 截止",
+      "usual": "10 月初報名及交件 → 11 月決賽",
+      "status": "本屆評審中",
+      "links": [
+        {
+          "label": "報名連結",
+          "url": "https://form.mcs.mo/forms/global-youth-ai-competition-pqnoz0"
+        }
+      ],
+      "events": [
+        {
+          "date": "2026-11-01",
+          "label": "複評／準決賽（網上）",
+          "end": "2026-11-15"
+        },
+        {
+          "date": "2026-11-26",
+          "label": "全球決賽及頒獎（澳門）"
+        }
+      ],
+      "note": ""
     },
     {
-     "date": "2026-10-30",
-     "label": "賽前專業培訓（參賽條件）",
-     "end": "2026-11-01"
+      "id": "rookie-hackathon",
+      "name": "「菜鳥黑客松」學生組奪旗賽（AWDP 攻防賽）",
+      "group": "本校常規",
+      "school": true,
+      "advice": "見升學加分指南「本校過去的比賽」",
+      "next": "2026 年：賽前培訓 2026-10-30 至 11-01；比賽及頒獎 2026-11-08，業餘進修中心",
+      "register": "全澳中學生，每隊 2 至 4 人，每校最多 2 隊；報名至 2026-10-22",
+      "usual": "10 月報名 → 11 月初比賽",
+      "status": "現正接受報名",
+      "links": [
+        {
+          "label": "官方公告",
+          "url": "https://www.caep.edu.mo/latestNoticeDetail/129"
+        }
+      ],
+      "events": [
+        {
+          "date": "2026-10-22",
+          "label": "報名截止"
+        },
+        {
+          "date": "2026-10-30",
+          "label": "賽前專業培訓（參賽條件）",
+          "end": "2026-11-01"
+        },
+        {
+          "date": "2026-11-08",
+          "label": "比賽及頒獎"
+        }
+      ],
+      "note": ""
     },
     {
-     "date": "2026-11-08",
-     "label": "比賽及頒獎"
+      "id": "it-grand",
+      "name": "全澳資訊科技大賽",
+      "group": "本校常規",
+      "school": true,
+      "advice": "見升學加分指南「本校過去的比賽」",
+      "next": "下一屆未查",
+      "register": "未查；主辦：澳門理工大學",
+      "usual": "按本校紀錄：4 月及 7 月",
+      "status": "未查",
+      "links": [],
+      "events": [],
+      "note": "本校歷年有參加，官方網址及下一屆日期尚未查核。"
+    },
+    {
+      "id": "wechat-miniprogram",
+      "name": "微信小程序全球創新挑戰賽（澳門區）",
+      "group": "本校常規",
+      "school": true,
+      "advice": "見升學加分指南「本校過去的比賽」",
+      "next": "下一屆未查",
+      "register": "未查",
+      "usual": "未查",
+      "status": "未查",
+      "links": [],
+      "events": [],
+      "note": "本校歷年有參加，官方網址及下一屆日期尚未查核。"
+    },
+    {
+      "id": "mos",
+      "name": "澳門學生 Office 軟件技能比賽（MOS）",
+      "group": "本校常規",
+      "school": true,
+      "advice": "見升學加分指南「本校過去的比賽」",
+      "next": "下一屆未查",
+      "register": "未查",
+      "usual": "未查",
+      "status": "未查",
+      "links": [],
+      "events": [],
+      "note": "本校歷年有參加，官方網址及下一屆日期尚未查核。"
+    },
+    {
+      "id": "hkmo-cyber",
+      "name": "港澳青少年網絡技能競賽",
+      "group": "本校常規",
+      "school": true,
+      "advice": "見升學加分指南「本校過去的比賽」",
+      "next": "下一屆未查",
+      "register": "未查",
+      "usual": "未查",
+      "status": "未查",
+      "links": [],
+      "events": [],
+      "note": "本校歷年有參加，官方網址及下一屆日期尚未查核。"
+    },
+    {
+      "id": "gba-ai-cyber",
+      "name": "大灣區青少年人工智能及網絡安全挑戰賽",
+      "group": "本校常規",
+      "school": true,
+      "advice": "見升學加分指南「本校過去的比賽」",
+      "next": "下一屆未查",
+      "register": "未查",
+      "usual": "未查",
+      "status": "未查",
+      "links": [],
+      "events": [],
+      "note": "本校歷年有參加，官方網址及下一屆日期尚未查核。"
+    },
+    {
+      "id": "vocational-web",
+      "name": "職業導向－網站技術比賽",
+      "group": "本校常規",
+      "school": true,
+      "advice": "見升學加分指南「本校過去的比賽」",
+      "next": "下一屆未查",
+      "register": "未查",
+      "usual": "未查",
+      "status": "未查",
+      "links": [],
+      "events": [],
+      "note": "本校歷年有參加，官方網址及下一屆日期尚未查核。"
     }
-   ],
-   "note": ""
-  },
-  {
-   "id": "it-grand",
-   "name": "全澳資訊科技大賽",
-   "group": "本校常規",
-   "school": true,
-   "advice": "見升學加分指南「本校過去的比賽」",
-   "next": "下一屆未查",
-   "register": "未查；主辦：澳門理工大學",
-   "usual": "按本校紀錄：4 月及 7 月",
-   "status": "未查",
-   "links": [],
-   "events": [],
-   "note": "本校歷年有參加，官方網址及下一屆日期尚未查核。"
-  },
-  {
-   "id": "wechat-miniprogram",
-   "name": "微信小程序全球創新挑戰賽（澳門區）",
-   "group": "本校常規",
-   "school": true,
-   "advice": "見升學加分指南「本校過去的比賽」",
-   "next": "下一屆未查",
-   "register": "未查",
-   "usual": "未查",
-   "status": "未查",
-   "links": [],
-   "events": [],
-   "note": "本校歷年有參加，官方網址及下一屆日期尚未查核。"
-  },
-  {
-   "id": "mos",
-   "name": "澳門學生 Office 軟件技能比賽（MOS）",
-   "group": "本校常規",
-   "school": true,
-   "advice": "見升學加分指南「本校過去的比賽」",
-   "next": "下一屆未查",
-   "register": "未查",
-   "usual": "未查",
-   "status": "未查",
-   "links": [],
-   "events": [],
-   "note": "本校歷年有參加，官方網址及下一屆日期尚未查核。"
-  },
-  {
-   "id": "hkmo-cyber",
-   "name": "港澳青少年網絡技能競賽",
-   "group": "本校常規",
-   "school": true,
-   "advice": "見升學加分指南「本校過去的比賽」",
-   "next": "下一屆未查",
-   "register": "未查",
-   "usual": "未查",
-   "status": "未查",
-   "links": [],
-   "events": [],
-   "note": "本校歷年有參加，官方網址及下一屆日期尚未查核。"
-  },
-  {
-   "id": "gba-ai-cyber",
-   "name": "大灣區青少年人工智能及網絡安全挑戰賽",
-   "group": "本校常規",
-   "school": true,
-   "advice": "見升學加分指南「本校過去的比賽」",
-   "next": "下一屆未查",
-   "register": "未查",
-   "usual": "未查",
-   "status": "未查",
-   "links": [],
-   "events": [],
-   "note": "本校歷年有參加，官方網址及下一屆日期尚未查核。"
-  },
-  {
-   "id": "vocational-web",
-   "name": "職業導向－網站技術比賽",
-   "group": "本校常規",
-   "school": true,
-   "advice": "見升學加分指南「本校過去的比賽」",
-   "next": "下一屆未查",
-   "register": "未查",
-   "usual": "未查",
-   "status": "未查",
-   "links": [],
-   "events": [],
-   "note": "本校歷年有參加，官方網址及下一屆日期尚未查核。"
-  }
- ]
+  ]
 }
