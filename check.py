@@ -45,8 +45,25 @@ if re.search(r'[^\s、/：:_"]+_\d+_[^\s、/；;"]', text):
     problems.append('出現 Class_No_Name 形式的學生資料')
 if '/Users/' in text:
     problems.append('出現本機路徑')
+# 升學加分追蹤清單：格式及不可公開的資料。
+aw_text = (HERE / 'admissions-watch.json').read_text(encoding='utf-8')
+aw = json.loads(aw_text)
+aw_ids = [it.get('id') for it in aw.get('items', [])]
+if len(aw_ids) != len(set(aw_ids)):
+    problems.append('admissions-watch.json：id 重複')
+for it in aw.get('items', []):
+    for key in ['id', 'region', 'name', 'url', 'watch', 'known', 'checked']:
+        if key not in it:
+            problems.append(f"admissions-watch.json：{it.get('id', '?')} 缺少 {key}")
+    if not str(it.get('url', '')).startswith(('https://', 'http://')):
+        problems.append(f"admissions-watch.json：{it.get('id', '?')} 網址不對")
+for n in aw.get('news', []):
+    if not DATE.fullmatch(str(n.get('date', ''))) or not n.get('text') or n.get('id') not in aw_ids:
+        problems.append(f'admissions-watch.json：消息不完整或 id 不存在：{n}')
+if re.search(r'[\w.+-]+@[\w-]+\.\w+', aw_text):
+    problems.append('admissions-watch.json：出現電郵地址')
 # 老師要求：公開頁面不可出現其他學校的名稱。
-for f in ['data.json', 'index.html', 'README.md', 'ROUTINE.md']:
+for f in ['data.json', 'index.html', 'README.md', 'ROUTINE.md', 'admissions-watch.json']:
     if '培' + '正' in (HERE / f).read_text(encoding='utf-8'):
         problems.append(f'{f} 出現不可公開的校名')
 if 'noindex' not in (HERE / 'index.html').read_text(encoding='utf-8'):
@@ -57,4 +74,4 @@ if problems:
     for p in problems:
         print('  - ' + p)
     sys.exit(1)
-print(f"PASS：{len(ids)} 項比賽、{sum(len(it['events']) for it in data['items'])} 個日期、{len(data['news'])} 則消息。")
+print(f"PASS：{len(ids)} 項比賽、{sum(len(it['events']) for it in data['items'])} 個日期、{len(data['news'])} 則消息；升學加分追蹤 {len(aw_ids)} 項。")

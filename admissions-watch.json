@@ -1,0 +1,298 @@
+{
+ "title": "升學加分條文追蹤",
+ "note": "每週一由雲端排程按 ROUTINE.md 第 6 節檢查。known＝上次確認的內容；有變動時更新 known 及 checked，並在 news 最前面加一則。",
+ "checked": "2026-10-14",
+ "items": [
+  {
+   "id": "polyu-stars",
+   "region": "香港",
+   "name": "理大 STARS 特殊才能入學及認可計劃",
+   "url": "https://www.polyu.edu.hk/study/ug/admissions/special-talents-admission-and-recognition-scheme",
+   "watch": "接受的成就範疇、例子（國際奧賽、RoboCup、ISEF 等）、非本地申請人資格、申請期限、可得待遇（直接錄取／有條件錄取／加分）",
+   "known": "歡迎非本地申請人；按成就規模及重要性評核；最多填 3 項，須官方證明；可獲直接錄取、有條件錄取或加分；頁面未列 2027 入學期限",
+   "priority": true,
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "hkust-baas",
+   "region": "香港",
+   "name": "科大 BAAS 卓越成就入學計劃",
+   "url": "https://join.hkust.edu.hk/baas",
+   "watch": "範疇、非 JUPAS 申請人待遇、獎學金金額、優先批次及截止日期、是否適用澳門學生",
+   "known": "全球申請人可用（不適用內地高考生）；非 JUPAS 可調整有條件錄取要求；一次性獎學金 HK$50,000；優先批次 2026-11-25；滾動招生至 2027-01-08",
+   "priority": true,
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "hkust-olympiad",
+   "region": "香港",
+   "name": "科大國際／亞洲奧賽獎牌獎學金",
+   "url": "https://join.hkust.edu.hk/scholarship-scheme-for-international/asian-olympiad-medalists",
+   "watch": "指定奧賽名單（IOI、APIO 等）、金額、提名方式、國籍限制",
+   "known": "IMO、IPhO、IChO、IBO、IOI、APMO、APIO、APhO；國際金牌全額學費＋每年 HK$60,000，國際銀牌全額學費，亞洲金牌全額學費＋每年 HK$30,000；毋須申請，由學院提名；未限國籍",
+   "priority": true,
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "hkust-science-faq",
+   "region": "香港",
+   "name": "科大理學院 FAQ（奧賽有利考慮）",
+   "url": "https://science.hkust.edu.hk/academic_programs/undergrad_prog/faq",
+   "watch": "奧賽代表隊／獎牌得主的考慮條文，是否擴至澳門代表",
+   "known": "國際物理／數學奧賽香港隊成員或獎牌得主獲有利考慮；未寫澳門代表",
+   "priority": false,
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "hkust-saas",
+   "region": "香港",
+   "name": "科大 SAAS 運動員入學計劃",
+   "url": "https://join.hkust.edu.hk/saas",
+   "watch": "資格、非本地適用性、期限",
+   "known": "見指南第 6 節（運動員途徑）",
+   "priority": false,
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "hku-intl",
+   "region": "香港",
+   "name": "港大國際／非本地學歷入學",
+   "url": "https://admissions.hku.hk/apply/international-qualifications",
+   "watch": "澳門學歷要求、申請期限、是否新增非學術成就／比賽相關計劃",
+   "known": "按國際／非本地學歷收生；未見比賽加分條文",
+   "priority": true,
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "hku-mainland",
+   "region": "香港",
+   "name": "港大內地生多元卓越計劃",
+   "url": "https://admissions.hku.hk/zh-hans/apply/mainland",
+   "watch": "是否開放予澳門學生（目前限內地高考）",
+   "known": "學科競賽、文體可加分，但只限內地高考生，澳門學生不能套用",
+   "priority": false,
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "hku-athletes",
+   "region": "香港",
+   "name": "港大頂尖運動員直接入學計劃",
+   "url": "https://lead.hku.hk/en/article/2022/01/hku-launches-top-athletes-direct-admission-scheme-to-admit-top-athletes-based-mainly-on-sports-achievements/",
+   "watch": "新一年度公布及資格",
+   "known": "按計劃資格核對；2026/27 錄取 4 人",
+   "priority": false,
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "cuhk-econ-nonlocal",
+   "region": "香港",
+   "name": "中大經濟學：非本地（澳門）入學",
+   "url": "https://admission.econ.cuhk.edu.hk/ug/bssc-economics/admission/non-local-macau-taiwan-international/",
+   "watch": "是否新增比賽加分（本地 Non-JUPAS 頁有 S.T. Yau、數學奧賽等加分）",
+   "known": "澳門頁沒有比賽加分條文；本地 Non-JUPAS 頁的競賽加分不適用澳門學生",
+   "priority": true,
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "cuhk-scholarship",
+   "region": "香港",
+   "name": "中大入學獎學金",
+   "url": "https://admission.cuhk.edu.hk/fees-financing-your-studies/scholarships/admission-scholarships-for-undergraduates-only/",
+   "watch": "非學術表現（比賽）是否列入、非本地生資格",
+   "known": "優秀學術／非學術表現可被考慮",
+   "priority": false,
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "cityu-intl",
+   "region": "香港",
+   "name": "城大國際招生（澳門學歷）",
+   "url": "https://www.cityu.edu.hk/admo/admissions/international-admissions",
+   "watch": "申請期限、澳門學歷、英語要求、是否新增比賽或特殊才能條文",
+   "known": "2026-09-24 開始；提前批 2026-11-15；主要批次 2027-01-15；IELTS 6.5；沒有比賽加分條文",
+   "priority": true,
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "cityu-scholarship",
+   "region": "香港",
+   "name": "城大國際生入學獎學金",
+   "url": "https://www.cityu.edu.hk/admo/entrance-scholarship-international-students",
+   "watch": "金額、評定準則（是否加入非學術成就）",
+   "known": "按學業成績自動評定；Top／全額／半額學費",
+   "priority": false,
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "cityu-oaes",
+   "region": "香港",
+   "name": "城大 OAES 非本地傑出運動員入學獎學金",
+   "url": "https://www.cityu.edu.hk/en/sds/physical-education-wellness-and-sports/student-athletes-admission/outstanding-athletes-entrance",
+   "watch": "運動項目、期限、待遇",
+   "known": "專為非本地學生；18 個運動項目；全額學費＋宿舍獎學金",
+   "priority": false,
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "hkbu-das",
+   "region": "香港",
+   "name": "浸大直接收生計劃",
+   "url": "https://admissions.hkbu.edu.hk/admissions/direct-admission-schemes.html",
+   "watch": "各計劃是否接受非本地申請人、比賽／才能條件",
+   "known": "見指南第 6 節；未見澳門學生比賽加分條文",
+   "priority": true,
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "eduhk-nonlocal",
+   "region": "香港",
+   "name": "教大非本地申請 FAQ／自薦計劃",
+   "url": "https://www.apply.eduhk.hk/ug/faq_nonlocal",
+   "watch": "非本地生可否用自薦（STEAM、音樂、體育、視藝）",
+   "known": "自薦計劃屬 JUPAS；非本地生循 Non-JUPAS",
+   "priority": false,
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "lingnan-athletes",
+   "region": "香港",
+   "name": "嶺大精英運動員入學",
+   "url": "https://www.ln.edu.hk/admissions/ug/apply-now/elite-athletes",
+   "watch": "資格及非本地適用性",
+   "known": "見指南第 6 節",
+   "priority": false,
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "um-bonus",
+   "region": "澳門",
+   "name": "澳大加分計劃（聯考）",
+   "url": "https://reg.um.edu.mo/admissions/macao-students/admission-examination/rules/bonus-scheme/?lang=zh-hant",
+   "watch": "下一學年加分清單（比賽名單、加分值）、新增或刪除的比賽",
+   "known": "2027/2028 加分計劃（指南第 3.1 節）",
+   "priority": true,
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "um-pra",
+   "region": "澳門",
+   "name": "澳大校長推薦入學計劃",
+   "url": "https://reg.um.edu.mo/download/admission-local/PRA-info-sheet/PRA-rules-chn-wp.pdf",
+   "watch": "名額、條件、期限",
+   "known": "2027/2028 規則（指南第 6.2 節）",
+   "priority": false,
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "um-sport",
+   "region": "澳門",
+   "name": "澳大傑出運動員入學計劃",
+   "url": "https://sports.osa.um.edu.mo/scholarshipscheme/?lang=zh-hant",
+   "watch": "資格及期限",
+   "known": "2027/2028（指南第 6.1 節）",
+   "priority": false,
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "jae",
+   "region": "澳門",
+   "name": "四校聯考簡介及日期",
+   "url": "https://reg.um.edu.mo/admissions/macao-students/admission-examination/jae/introduction/?lang=zh-hant",
+   "watch": "報名及考試日期、新學年章程",
+   "known": "見指南第 14 節",
+   "priority": false,
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "mpu-bonus",
+   "region": "澳門",
+   "name": "理大入學考試及加分",
+   "url": "https://mpusite.mpu.edu.mo/admission_local/zh/admission_exams.php",
+   "watch": "加分表格及比賽名單、加分值",
+   "known": "上一屆條文（指南第 2.3 節）；表格 Form_Bonus Points Scheme",
+   "priority": true,
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "mpu-talent",
+   "region": "澳門",
+   "name": "理大專才入學",
+   "url": "https://mpusite.mpu.edu.mo/admission_local/zh/local_talents_professionals.php",
+   "watch": "各課程接受的比賽／資格",
+   "known": "見指南第 15.4 節",
+   "priority": false,
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "mpu-pra",
+   "region": "澳門",
+   "name": "理大校長推薦",
+   "url": "https://mpusite.mpu.edu.mo/admission_local/zh/principals_recommendation.php",
+   "watch": "名額、條件、期限",
+   "known": "見指南",
+   "priority": false,
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "must-regulations",
+   "region": "澳門",
+   "name": "科大招生章程附件（加分）",
+   "url": "https://www.must.edu.mo/images/Admission/files/CHI_admission_regulations_att1.pdf",
+   "watch": "加分比賽及分值",
+   "known": "見指南第 2 節",
+   "priority": true,
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "must-talent",
+   "region": "澳門",
+   "name": "科大特長生招生簡章",
+   "url": "https://ugadmissions.must.edu.mo/page/id-1299.html",
+   "watch": "新學年（2027-2028）特長生簡章上架、比賽要求",
+   "known": "現有 2026-2027 學年特長生簡章；留意 2027-2028 版本",
+   "priority": true,
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "utm-local",
+   "region": "澳門",
+   "name": "旅大本地日間學位課程招生（優先錄取）",
+   "url": "https://www.utm.edu.mo/admission/tc/undergraduate_programmes/local-applicant/daytime-degree-programmes/index.html",
+   "watch": "優先錄取項目、比賽名單",
+   "known": "見指南第 2.4 節",
+   "priority": false,
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "dsedj-baosong",
+   "region": "內地",
+   "name": "教青局內地高校保送／招生簡介",
+   "url": "https://appl2.dsedj.gov.mo/ChinaUEnrollment/UPublic/EnrollmentBrief.jsp",
+   "watch": "2027 年澳門保送生簡章（清華、北大、浙大、上交、復旦等）上架、比賽或獎項條件",
+   "known": "已有 2026 澳門保送生五校簡章（指南第 5.1 節）；留意 2027 版",
+   "priority": true,
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "joint-exam",
+   "region": "內地",
+   "name": "港澳台聯招",
+   "url": "https://www.gatzs.com.cn/gatzs/pz/hongkong/202601/20260120/2293447012.html",
+   "watch": "2027 聯招簡章、加分或免試條文",
+   "known": "2026 簡章（指南第 5 節）",
+   "priority": false,
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "moe-whitelist",
+   "region": "內地",
+   "name": "教育部中小學生全國性競賽活動名單（白名單）",
+   "url": "http://www.moe.gov.cn/srcsite/A29/202510/t20251029_1418393.html",
+   "watch": "新一學年名單公布、與資訊科技相關的比賽增減",
+   "known": "2025-2026 學年名單（指南第 12 節）",
+   "priority": false,
+   "checked": "2026-10-14"
+  }
+ ],
+ "news": []
+}
