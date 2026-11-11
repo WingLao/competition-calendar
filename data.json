@@ -6,6 +6,12 @@
   "news": [
     {
       "date": "2026-11-11",
+      "id": "noip",
+      "text": "新增 NOIP 2026：2026-11-28（星期六）08:30–13:00，學校統一報名；澳門截止、考點及費用見澳門電腦學會公告。",
+      "url": "https://www.mcs.mo/articles/105"
+    },
+    {
+      "date": "2026-11-11",
       "id": "underwater",
       "text": "MATE ROV 2027 世界賽公布：2027-06-24 至 26，美國華盛頓州 Federal Way；International SeaPerch Challenge 2027：2027-06-05 至 06，美國馬里蘭州 College Park（外卡申請 2026-12-01 至 2027-02-01）。",
       "url": "https://seaperch.org/programs/2027-challenge/"
@@ -728,6 +734,38 @@
         }
       ],
       "note": ""
+    },
+    {
+      "id": "noip",
+      "name": "全國青少年信息學奧林匹克聯賽（NOIP）",
+      "group": "本校常規",
+      "school": true,
+      "advice": "見升學加分指南「本校過去的比賽」；按 2025 年 MOI 章程，NOIP 成績佔 MOI 綜合分 30%",
+      "next": "NOIP 2026：2026-11-28（星期六）08:30–13:00，4.5 小時、4 題，NOI Linux 上機，各省同步舉行",
+      "register": "學校統一報名，不接受個人報名；以 CSP-S 第二輪准考證號填報。澳門截止、考點及費用見澳門電腦學會公告",
+      "usual": "CSP-S 第二輪（10 月底）→ 11 月中報名 → 11 月底比賽",
+      "status": "報名中；澳門考點待通知",
+      "note": "澳門電腦學會網站阻擋自動讀取，澳門賽區的消息可能要人手查看。比賽日期時間按 CCF 各省報名通知核對。",
+      "links": [
+        {
+          "label": "澳門電腦學會公告",
+          "url": "https://www.mcs.mo/articles/105"
+        },
+        {
+          "label": "CCF NOIP 2026 通知（雲南省，核對全國日期）",
+          "url": "https://www.noi.cn/gs/xw/yn/2026-10-30/944612.shtml"
+        },
+        {
+          "label": "NOI 官網",
+          "url": "https://www.noi.cn/"
+        }
+      ],
+      "events": [
+        {
+          "date": "2026-11-28",
+          "label": "NOIP 2026 比賽 08:30–13:00"
+        }
+      ]
     },
     {
       "id": "gyai",
