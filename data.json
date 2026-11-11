@@ -1,9 +1,15 @@
 {
   "title": "比賽日曆",
-  "updated": "2026-10-23",
-  "checked": "2026-11-10",
+  "updated": "2026-11-11",
+  "checked": "2026-11-11",
   "guide": "https://winglao.github.io/admissions/",
   "news": [
+    {
+      "date": "2026-11-11",
+      "id": "underwater",
+      "text": "MATE ROV 2027 世界賽公布：2027-06-24 至 26，美國華盛頓州 Federal Way；International SeaPerch Challenge 2027：2027-06-05 至 06，美國馬里蘭州 College Park（外卡申請 2026-12-01 至 2027-02-01）。",
+      "url": "https://seaperch.org/programs/2027-challenge/"
+    },
     {
       "date": "2026-10-23",
       "id": "ai-comic-dream",
@@ -340,10 +346,10 @@
       "group": "值得參加",
       "school": false,
       "advice": "沒有固定加分；國際賽，香港理大 STARS 按規模及重要性評核",
-      "next": "MATE 2027 世界賽未公布（2026：06-25 至 27，加拿大）。SeaPerch 2027 未經官方確認",
+      "next": "MATE 2027 世界賽：2027-06-24 至 26，美國華盛頓州 Federal Way（主辦方 Save-the-Date）。International SeaPerch Challenge 2027：2027-06-05 至 06，美國馬里蘭州 College Park；外卡申請 2026-12-01 至 2027-02-01，報名截止 2027-04-07",
       "register": "MATE：香港地區賽取得世界賽資格。SeaPerch：區域賽晉級或申請外卡",
       "usual": "MATE：4 月地區賽、6 月世界賽。SeaPerch：5 月底至 6 月初",
-      "status": "日期未公布",
+      "status": "MATE、SeaPerch 2027 日期已公布",
       "links": [
         {
           "label": "MATE ROV",
@@ -356,9 +362,24 @@
         {
           "label": "SeaPerch",
           "url": "https://seaperch.org"
+        },
+        {
+          "label": "SeaPerch 2027 挑戰賽",
+          "url": "https://seaperch.org/programs/2027-challenge/"
         }
       ],
-      "events": [],
+      "events": [
+        {
+          "date": "2027-06-05",
+          "label": "International SeaPerch Challenge 2027（美國馬里蘭州）",
+          "end": "2027-06-06"
+        },
+        {
+          "date": "2027-06-24",
+          "label": "MATE ROV 世界賽 2027（美國華盛頓州）",
+          "end": "2027-06-26"
+        }
+      ],
       "note": ""
     },
     {
